@@ -1,4 +1,4 @@
-# IBM_Data_Analyst_Capstone
+# IBM Data Analyst Capstone
 
 ## Background Information
 This project was undertaken as a part of the IBM Data Analyst Professional Certificate Capstone course on Coursera.
