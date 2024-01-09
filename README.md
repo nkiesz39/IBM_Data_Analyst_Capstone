@@ -59,6 +59,18 @@ Each step of the data analysis process is shown in different notebook of this re
           - Horizontal Bar Charts
   - [Capstone Presentation Slide Deck](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/blob/main/capstone_presentation.pdf)
     - The PowerPoint presentation of the project findings in a pdf format
+## Dashboard
+The following are screenshots of the Cognos Dashboard. The live dashboard can be found [here](https://dataplatform.cloud.ibm.com/dashboards/92117510-5e9e-4605-8f99-bb4f6e80756a/view/5e64a7606f9e10c467b5c0e407cd2b0428322758b7bbd602d1d47b4907687097a96d1498c8791e5adc190c66a5b915519d)
+
+### Current Technology Dashboard
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/blob/main/Screenshots/Current_Tech_dash.png)
+
+### Future Technology Dashboard
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/blob/main/Screenshots/Futue_Tech_dash.png)
+
+### Demographics Dashboard
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/blob/main/Screenshots/Demo_dash.png)
+
 
 ## Guiding Questions
 The aim of the project was to answer the questions:
@@ -126,7 +138,39 @@ The following is the correlation between the numerical columns:
 
 Comensation is highly correlated with Age. 
 ## Data Visualizations
+SQL queries were used in a Jupyter Notebook to access the RDBMS and visualize the data.
 
-## Dashboard
+### Visualizing Data Distribution
+A boxplot was used to visualize the distribution of the respondent's Age. The Median Age falls around 30 years old with outliers being older than 50-55 years old. 
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/87aed585-2ffc-4302-89bf-e4a69d8af556)
+
+A hisotgram was used to visualize the distribution of the ConvertedComp column.
+
+### Visualizing Relationships Between Features
+The relationship between Age and Work Week Hours was visualized using a scatter plot. 
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/a8d1625f-08de-4718-a851-6b15ae4c5e9d)
+
+A bubble plot was used to compare Work Week Hours on the X-axis, Code Review Hours on the Y-axis, and Age as the size of the bubbles. Code Review Hours is the amount of time spent per week reviewing documentation to aid in coding and understanding.
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/cc92aae8-0ea3-4c4f-b80e-c687524002ff)
+
+### Visualizing Data Composition
+Using a Pie chart, a the Top 5 Databases to learn were graphed. These are the Database Systems that developers have expressed interest in learning in the next year. 
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/ebfd6135-c1c3-4165-a690-3d2b0cde6f3e)
+
+Using a Stacked chart, the median Work Week Hours and Code Review Hours were graphed for the age group of 30 - 35 years old. Overall, the age group works 40 hour Work Weeks and spends about 5 hours on Code Review in the week.
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/e4b0b306-458f-4937-b347-00f3563632a0)
+
+### Visualizing Data Comparison
+A line chart was used to graph the Median salary for the respondent's Age between 45 - 60 years old. While 60 year olds have the highest median salary overall, there are other peaks at 48, 54 and 57 years old. With the lowest median salary going to 49 year olds. 
+
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/a7915f2a-196b-4d90-a5e6-45f9fbcae325)
+
+Finally, a horizontal bar chart was used to visualize the counts of whether respondents are Developers as a job or not. 
+![image](https://github.com/nkiesz39/IBM_Data_Analyst_Capstone/assets/73789208/d50e7fec-65f3-46de-a98f-1b722837b580)
 
 ## Conclusions
