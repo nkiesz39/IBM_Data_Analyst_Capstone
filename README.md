@@ -5,7 +5,7 @@ This project was undertaken as a part of the IBM Data Analyst Professional Certi
 
 For this project, we assume that we are a Data Analyst at a Global IT and Business Consulting Firm. In order to keep pace with changing technologies, the organization regularly analyzes data and trends to identify future skill requirements.
 
-As a Data Analyst, we have been tasked with collecting data from various sources and identifying trends for this year's report on emerging technology skills. The purpose of the results are to aid developers and employers in staying relevant in the job market and guide amployer traing and upskilling support. 
+As a Data Analyst, we have been tasked with collecting data from various sources and identifying trends for this year's report on emerging technology skills. The purpose of the results are to aid developers and employers in staying relevant in the job market and guide employer training and upskilling support. 
 
 Each step of the data analysis process is shown in different notebook of this repository and some aditional files needed for their understanding.
 
